@@ -145,11 +145,6 @@ public class SimonScreenZheng extends ClickableScreen implements Runnable {
 
 				public void run(){
 					button.blink();
-					try{
-						Thread.sleep(800);
-					}catch(InterruptedException e){
-						e.printStackTrace();
-					}
 				}
 				//b.dim();
 				
