@@ -131,7 +131,7 @@ public class SimonScreenZheng extends ClickableScreen implements Runnable {
 	}
 
 	private ButtonInterface getAButton(int x, int y, int width, int height, Color color) {
-		ButtonInterface button = new SimonButton(x, y, width, height, color);
+		ButtonInterface button = new Button(x, y, width, height, color);
 		button.setAction(new Action() {
 			public void act()
 			{
