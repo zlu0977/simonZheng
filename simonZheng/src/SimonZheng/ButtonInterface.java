@@ -7,5 +7,6 @@ public interface ButtonInterface extends Clickable {
 
 	void blink();
 	void setAction(Action action);
+	void dim();
 
 }
