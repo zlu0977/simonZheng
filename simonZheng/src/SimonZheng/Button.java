@@ -86,4 +86,10 @@ public class Button extends Component implements ButtonInterface{
 		
 	}
 
+	@Override
+	public void dim() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
