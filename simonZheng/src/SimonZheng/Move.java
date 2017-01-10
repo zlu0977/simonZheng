@@ -2,10 +2,14 @@ package SimonZheng;
 
 public class Move implements MoveInterface {
 
-	@Override
+	private ButtonInterface button;
+	
+	public Move(ButtonInterface b){
+		button = b;
+	}
+	
 	public ButtonInterface getButton() {
-		// TODO Auto-generated method stub
-		return null;
+		return button;
 	}
 
 }
