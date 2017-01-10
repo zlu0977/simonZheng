@@ -47,9 +47,9 @@ public class Button extends Component implements ButtonInterface{
 			g.setColor(displayColor);
 		else 
 			g.setColor(Color.gray);
-		g.fillOval(0, 0, getWidth(), getHeight());
+		g.fillRect(0, 0, getWidth(), getHeight());
 		g.setColor(Color.black);
-		g.drawOval(0, 0, getWidth()-1, getHeight()-1);
+		g.drawRect(0, 0, getWidth()-1, getHeight()-1);
 		
 	}
 

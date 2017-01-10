@@ -36,7 +36,7 @@ public class SimonScreenZheng extends ClickableScreen implements Runnable {
 		
 		getButtons(viewObjects);
 		
-		turn = new TextLabel(50, 50, getWidth(), 200, "");
+		turn = new TextLabel(50, 50, getWidth(), 230, "");
 		progress = getProgress();
 		moveList.add(getAMove());
 		moveList.add(getAMove());
@@ -48,10 +48,10 @@ public class SimonScreenZheng extends ClickableScreen implements Runnable {
 	}
 
 	private void getButtons(ArrayList<Visible> viewObjects) {
-		ButtonInterface button1 = getAButton(15, 150, 50, 50, Color.red);
-		ButtonInterface button2 = getAButton(155, 150, 50, 50, Color.blue);
-		ButtonInterface button3 = getAButton(15, 300, 50, 50, Color.yellow);
-		ButtonInterface button4 = getAButton(155, 300, 50, 50, Color.green);
+		ButtonInterface button1 = getAButton(15, 150, 80, 80, Color.red);
+		ButtonInterface button2 = getAButton(125, 150, 80, 80, Color.blue);
+		ButtonInterface button3 = getAButton(15, 300, 80, 80, Color.yellow);
+		ButtonInterface button4 = getAButton(125, 300, 80, 80, Color.green);
 		
 		buttonList.add(button1);
 		buttonList.add(button2);

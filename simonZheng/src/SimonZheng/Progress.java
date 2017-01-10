@@ -32,7 +32,7 @@ public class Progress extends TextLabel implements ProgressInterface {
 
 	@Override
 	public void update(Graphics2D g) {
-		g.setColor(new Color(220,255,230));
+		g.setColor(Color.white);
 		g.fillRect(0, 0, getWidth(), getHeight());
 		g.setColor(Color.black);
 		g.setFont(new Font("Helvetica", Font.PLAIN, 20));
